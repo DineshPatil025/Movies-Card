@@ -85,6 +85,11 @@ h4 {
 }
 
 
+.rating{
+    font-weight: bold;
+   font-size: 20px;
+}
+
 
 .green {
     color: green
