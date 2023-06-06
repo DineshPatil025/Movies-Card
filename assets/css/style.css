@@ -1,0 +1,103 @@
+:root {
+    --primary-color: #22254b;
+    --secondary-color: #373b69;
+    --white-color--: #fff;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+.logo:link,
+.logo:visited {
+    color: var(--white-color--);
+    font-size: 34px;
+}
+
+a:visited,
+a:link {
+    text-decoration: none;
+}
+
+.header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    line-height: 1;
+}
+
+.searchBar {
+    border-radius: 10px;
+}
+
+.imdbCard figure {
+    height: 450px;
+
+}
+
+.cardImg {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+.imdbCard {
+    position: relative;
+    overflow: hidden;
+}
+
+.imdbCard figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: var(--white-color--);
+    background-color: var(--primary-color);
+    line-height: 1;
+    font-size: 18px;
+    padding: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.overvieew {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    padding: 20px;
+    overflow: auto;
+    transform: translatey(110%);
+
+    transition: all 0.4s ease-in-out;
+}
+
+.imdbCard:hover .overvieew {
+    transform: translate(0);
+}
+
+
+
+.green {
+    color: green
+}
+
+.yellow {
+    color: yellow
+}
+
+.orange {
+    color: orange
+}
+
+.red {
+    color: red;
+}
